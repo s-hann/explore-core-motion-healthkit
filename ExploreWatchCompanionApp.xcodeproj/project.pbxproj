@@ -337,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ExploreWatchCompanionApp Watch App/ExploreWatchCompanionApp Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExploreWatchCompanionApp Watch App/Preview Content\"";
@@ -344,6 +345,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ExploreWatchCompanionApp;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need health permission to access step data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need update health permission to update step data.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Allow motion access to update steps.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "app.web.hann-svr.ExploreWatchCompanionApp";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ExploreWatchCompanionApp Watch App/ExploreWatchCompanionApp Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExploreWatchCompanionApp Watch App/Preview Content\"";
@@ -374,6 +379,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ExploreWatchCompanionApp;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need health permission to access step data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need update health permission to update step data.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Allow motion access to update steps.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "app.web.hann-svr.ExploreWatchCompanionApp";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -405,6 +413,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ExploreWatchCompanionApp;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need health permission to access step data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need update health permission to update step data.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Allow motion access to update steps.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -419,6 +430,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "app.web.hann-svr.ExploreWatchCompanionApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -437,6 +452,9 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ExploreWatchCompanionApp;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need health permission to access step data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need update health permission to update step data.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Allow motion access to update steps.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +469,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "app.web.hann-svr.ExploreWatchCompanionApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
